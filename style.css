@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #ebebeb;
+    background-color: #fff;
 }
 
 .menu {
@@ -58,6 +58,7 @@
 .presentation {
     margin-left: 100px;
     margin-top: 70px;
+    display: flex;
 }
 
 .paragraphe-nom {
@@ -71,8 +72,8 @@
     display: inline-block;
     border-radius: 35px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
-    border: 3px solid #ccc;
-    background-color: #eeecec;
+    border: 3px solid #dadada;
+    background-color: #fff;
     font-family: 'Poppins', sans-serif;
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
@@ -99,10 +100,74 @@
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
     letter-spacing: 0.3px;
+    padding-bottom: 25px;
 }
 
 .paragraphe-nom:hover {
     background-color: #001aff;
     color: #fff;
     border-color: #001aff;
+}
+
+.btn-bleu {
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #001aff;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-right: 10px;
+    transition: background-color 0.4s ease, transform 0.3s ease;
+}
+
+.btn-blanc {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-right: 20px;
+    z-index: 1;
+    transition: color 0.4s ease, transform 0.3s ease;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-blanc::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #001aff;
+    transition: width 0.4s ease;
+    z-index: -1;
+}
+
+.btn-blanc:hover::before {
+    width: 100%;
+}
+
+.btn-blanc:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-bleu:hover {
+    background-color: #fff;
+    cursor: pointer;
+    color: #000;
+    border: 2px solid #dadada;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-portfolio {
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
 }
