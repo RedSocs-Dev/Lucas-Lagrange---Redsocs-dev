@@ -118,7 +118,7 @@
     border-radius: 7px;
     font-size: 15px;
     margin-right: 10px;
-    transition: background-color 0.4s ease, transform 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .btn-blanc {
@@ -159,11 +159,8 @@
 }
 
 .btn-bleu:hover {
-    background-color: #fff;
     cursor: pointer;
-    color: #000;
-    border: 2px solid #dadada;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.07);
 }
 
 .image-portfolio {

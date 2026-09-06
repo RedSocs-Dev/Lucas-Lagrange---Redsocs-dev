@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://redsocs-dev.github.io/Lucas-Lagrange---Redsocs-dev/sitemap.xml
