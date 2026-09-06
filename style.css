@@ -184,7 +184,7 @@
 }
 
 .competences {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 100px;
@@ -206,9 +206,9 @@
 
 .competences-icones {
     display: flex;
-    gap: 100px;
     padding-bottom: 20px;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .competences {
@@ -216,14 +216,12 @@
 }
 
 .competence {
-    padding: 25px;
-    border-radius: 12px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 1;
+    padding: 25px 15px;
 }
 
-.competence:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 25px rgba(0, 26, 255, 0.1);
+.competence:not(:last-child) {
+    border-right: 3px solid #dadada;
 }
 
 .fa-html5 {
@@ -244,7 +242,7 @@
     padding-bottom: 10px;
 }
 
-.fa-github {
+.competence .fa-github {
     font-size: 70px;
     color: #333;
     padding-bottom: 10px;
@@ -275,4 +273,43 @@
 
 .niveau {
     transform: translateY(5px);
+}
+
+.barre {
+    width: 120px;
+    height: 8px;
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    margin: 15px auto 0;
+    overflow: hidden;
+}
+
+.progression {
+    height: 100%;
+    border-radius: 20px;
+}
+
+.html {
+    width: 80%;
+    background-color: #e34c26;
+}
+
+.css {
+    width: 90%;
+    background-color: #264de4;
+}
+
+.js {
+    width: 50%;
+    background-color: #f0db4f;
+}
+
+.git {
+    width: 80%;
+    background-color: #333;
+}
+
+.seo {
+    width: 75%;
+    background-color: #001aff;
 }
