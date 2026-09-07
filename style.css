@@ -339,28 +339,32 @@
 .projet-description {
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    border: #dadada;
+    border: 2px solid #dadada;
     margin: 25px;
-    transition: transform 0.3s ease;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .image-projets {
     width: 500px;
     height: auto;
     border-radius: 20px;
-    border: #dadada;
+    border-bottom: 2px solid #dadada;
+    border-radius: 20px 20px 0 0;
 }
 
 .image-projets-skimboard {
     width: 480px;
     height: auto;
-    border: #dadada;
+    border-bottom: 2px solid #dadada;
+    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
 }
 
 .projet-description:hover {
-    transform: scale(1.05);
+    transform: translateY(-15px);
+    box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1);
 }
 
 .description-tout {
@@ -389,8 +393,9 @@
     color: #001aff;
     padding: 10px;
     padding-left: 12px;
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'Poppins', sans-serif;
+    margin: 20px;
 }
 
 .petit-texte-presentation {
