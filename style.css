@@ -377,7 +377,7 @@
     font-size: 25px;
     color: #000;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     letter-spacing: -2;
 }
 
@@ -396,6 +396,7 @@
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
     margin: 20px;
+    display: inline-block;
 }
 
 .petit-texte-presentation {
@@ -409,4 +410,5 @@
     display: inline-block;
     border-radius: 20px;
     font-family: "Roboto Condensed", sans-serif;
+    border: 2px solid #dadada;
 }
