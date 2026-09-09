@@ -325,8 +325,7 @@
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 100px;
-    border-radius: 14px;
+    margin-bottom: 40px;
     padding: 10px;
 }
 
@@ -416,8 +415,6 @@
 
 .image-description {
     margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
     margin-bottom: 100px;
     border-radius: 14px;
     padding: 10px;
@@ -425,14 +422,16 @@
 }
 
 .image-a-propos {
-    width: 200px;
-    padding: 15px;
-    height: auto;
+    width: 280px;
+    padding: 20px;
+    padding-right: 60px;
+    height: 280px;
 }
 
 .description-et-titre-caca {
     display: flex;
     flex-direction: column;
+    margin-right: 60px;
 }
 
 .tout-description-caca {
@@ -444,5 +443,64 @@
     padding-bottom: 20px;
     padding-top: 20px;
     font-family: "Poppins", sans-serif;
+}
+
+.description-sur-moi {
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.4;
+    padding-bottom: 40px;
+}
+
+.boutton-description-sur-moi {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-right: 40px;
+    width: 400px;
+    z-index: 1;
+    transition: color 0.4s ease, background-color 0.4s ease, transform 0.3s ease;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.descritption-caca {
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    transform: translateY(70px);
+    margin-bottom: 170px;
+}
+
+.titre-caca {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.paragraphe-caca {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.descritption-caca:not(:last-child) {
+    border-right: 2px solid #dadada;
+}
+
+.a-propos-description-et-image {
+    border-top: 2px solid #dadada;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.boutton-description-sur-moi:hover {
+    color: #fff;
+    background-color: #001aff;
+    transform: translateY(-5px);
 }
 
