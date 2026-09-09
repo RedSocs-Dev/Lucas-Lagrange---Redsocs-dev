@@ -497,10 +497,3 @@
     margin-left: 60px;
     margin-right: 60px;
 }
-
-.boutton-description-sur-moi:hover {
-    color: #fff;
-    background-color: #001aff;
-    transform: translateY(-5px);
-}
-
