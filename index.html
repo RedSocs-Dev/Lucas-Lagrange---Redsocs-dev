@@ -9,6 +9,8 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="google-site-verification" content="-37JW11dGaoaFDhIolgwnWhpe2T4rq7johf-iU4JZWo" />
 </head>
 <!-- Google tag (gtag.js) -->
@@ -48,7 +50,7 @@
             </div>
         </div>
         <div class="image-presentation2">
-            <img class="image-portfolio" src="images/image-portfolio.avif" alt="Illustration d'un développeur web pour la page d'accueil du portfolio de Lucas Lagrange, développeur Front-end Freelance." loading="lazy">
+            <img class="image-portfolio" src="images/image-portfolio.avif" loading="eager" fetchpriority="high">
         </div>
     </section>
     <section class="competences">
@@ -131,7 +133,7 @@
     </section>
     <section class="a-propos-description-et-image">
         <div class="image-description">
-            <img class="image-a-propos" src="images/image-de-moi.png" alt="image de Lucas Lagrange permettant de savoir qui il est" loading="lazy">
+            <img class="image-a-propos" src="images/image-de-moi.avif" alt="image de Lucas Lagrange permettant de savoir qui il est" loading="lazy">
             <div class="description-et-titre-caca">
                 <h2 class="titre-projet-caca">A propos de moi</h2>
                 <p class="description-sur-moi">Passioné par le developpement web, du haut de mes 14 ans, <br> j'aime créer des interfaces utilisateur intuitives et des experiences digitales efficaces. <br>  <br>  Curieux, rigoureux et toujours en apprentissage.</p>
@@ -154,6 +156,6 @@
         </div>
     </section>
 </main>
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </body>
 </html>
