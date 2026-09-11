@@ -2,19 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://redsocs-dev.github.io/Lucas-Lagrange---Redsocs-dev/</loc>
+    <loc>https://redsocs-dev.github.io/</loc>
   </url>
 
   <url>
-    <loc>https://redsocs-dev.github.io/Lucas-Lagrange---Redsocs-dev/a_propos.html</loc>
+    <loc>https://redsocs-dev.github.io/a_propos.html</loc>
   </url>
-
-  <url>
-    <loc>https://redsocs-dev.github.io/Lucas-Lagrange---Redsocs-dev/projets.html</loc>
-  </url>
-
-  <url>
-    <loc>https://redsocs-dev.github.io/Lucas-Lagrange---Redsocs-dev/contact.html</loc>
-  </url>
-
 </urlset>
